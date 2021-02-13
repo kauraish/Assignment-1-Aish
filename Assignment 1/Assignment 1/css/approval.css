@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+}
+#gArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "information pic";
+}
+
+h3{
+    margin: 0%;
+    padding: 0%;
+}
+
+button{
+    background-color: white;
+}

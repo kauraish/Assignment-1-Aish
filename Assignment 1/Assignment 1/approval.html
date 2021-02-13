@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script/jquery.js"></script>
+
+	<script src="script/approval.js"></script>
+    <link href="css/approval.css" rel="stylesheet">
+    <title>Aishpreet Kaur</title>
+</head>
+<body>
+    <header id = "header"></header><br />
+    <div id="gArea">
+        <div id = "information">
+            <label id = "in"></label><br />
+            <label id = "borwAmt"></label><br />
+            <label id = "payterms"></label><br />
+            <label id = "interest"></label><br />
+            <label id = "pymnt"></label><br />
+            <label id = "profit"></label><br />
+            <label for = "decision"></label>
+            <select name="decision" id="decision">
+                <option value="accept">Accept</option>
+                <option value="reject">Reject</option>
+                <option value="needMoreInfo">Need more information</option>
+            </select><br /><br />
+            <button onclick = "toLocalStorage()" type="button" id="button">Click to Submit</button>   
+        </div>
+        <div id = "pic">
+            <h3>Sales Representative: </h3>
+            <img src="images/me.jpg" height="200" width="200">
+        </div>
+
+    </div>
+    <footer id = "footer"></footer>
+</body>
+</html>
